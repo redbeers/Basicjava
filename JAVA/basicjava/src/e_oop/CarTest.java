@@ -37,11 +37,7 @@ class Car{
 	
 	Car(String gearType){
 		this();//생성자 내에서 다른 생성자를 불러올때 사용한다.이건 생성자의 첫줄에만 사용가능하다
-<<<<<<< HEAD
 		 this.gearType = gearType;
-=======
-		this.gearType = gearType;
->>>>>>> d4cb0de41bd93b2acdc8ad45120de9f8a18ff3b4
 	}
 	Car(String color, String gearType){//특별한 메서드
 		this();//기본 세팅을 한다.

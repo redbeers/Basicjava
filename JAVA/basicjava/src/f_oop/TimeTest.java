@@ -27,17 +27,9 @@ class TimeVO{
 	private int seconds;
 	
 	void setHour(int hour){
-<<<<<<< HEAD
 		this.hour = hour%24;
 		
 		
-=======
-		if(hour > 23){
-			this.hour = hour%24;
-		}else{
-			this.hour = hour;
-		}
->>>>>>> d4cb0de41bd93b2acdc8ad45120de9f8a18ff3b4
 	}
 	void setMinute(int minute){
 		this.minute = minute%60;
@@ -51,11 +43,7 @@ class TimeVO{
 //		
 //	}
 	String time(){
-<<<<<<< HEAD
 		String r = hour +"시" + minute+"분" + seconds+"초";
-=======
-		String r = "" + hour +"시" + minute+"분" + seconds+"초";
->>>>>>> d4cb0de41bd93b2acdc8ad45120de9f8a18ff3b4
 		return r;
 	}
 }
