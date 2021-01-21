@@ -1,0 +1,14 @@
+package store;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Guest guest1 = new Guest("상빈이", 500);
+		
+		
+		guest1.output();
+		
+	}
+
+}

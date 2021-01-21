@@ -1,0 +1,22 @@
+package h_javaLang;
+
+public class WrapperTest_01 {
+
+	public static void main(String[] args) {
+		
+		Boolean i1 = new Boolean(true);
+		Character i2 = new Character('a');
+		
+		Integer i3 = new Integer(100);
+		Integer i4 = new Integer(100);
+
+		System.out.println(i3 == i4);
+		System.out.println(i3.equals(i4));
+		System.out.println(i3);
+		//주소가아닌 값이아오는것은 tnString을 오버라이드하고있다
+		
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(Integer.MIN_VALUE);
+	}
+
+}

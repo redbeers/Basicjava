@@ -1,0 +1,62 @@
+package h_javaLang;
+
+public class CloneTest_03 {
+
+	public static void main(String[] args) {
+		
+		Cirle c = new Cirle(50, new Point(100, 100));
+
+		System.out.println(c);
+		
+		Cirle cCirle = (Cirle)c.clone();
+		System.out.println(cCirle);
+		
+		c.r = 300;
+		c.p.x = 1000;
+
+		System.out.println(c);
+		System.out.println(cCirle);
+		
+	}
+
+}
+
+class Cirle implements Cloneable{
+	int r;
+	Point p;
+	public Cirle(int r, Point p) {
+		this.r = r;
+		this.p = p;
+	}
+	@Override
+	public String toString() {
+		return "Cirle [r=" + r + ", p=" + p + "]";
+	}
+	
+	@Override
+	protected Object clone()  {
+		Object re=null;
+		try{
+			
+		re = super.clone();
+		}catch(CloneNotSupportedException e){
+			e.printStackTrace();
+		}
+		return re;
+	}
+	
+	protected Object deepCopy(Cirle c)  {
+		Object re=c;
+		
+		try{
+			
+		re = super.clone();
+		}catch(CloneNotSupportedException e){
+			e.printStackTrace();
+		}
+		return re;
+	}
+	
+	
+	
+}

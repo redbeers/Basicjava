@@ -1,0 +1,18 @@
+package store;
+
+import java.util.Arrays;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Guest g1 = new Guest("나1", 100);
+		Guest g2 = new Guest("나2", 100);
+		
+		OutGuest outG = new OutGuest();
+		outG.storage(g1);
+		outG.storage(g2);
+		
+	}
+}

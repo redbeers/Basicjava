@@ -1,0 +1,38 @@
+package h_javaLang;
+
+public class CloneTest_01 {
+
+	public static void main(String[] args) {
+		CloneEx clone = new CloneEx(10, 20);
+		
+	}
+
+}
+
+class CloneEx implements Cloneable{
+	@Override
+	protected Object clone() {
+		Object re = null;
+		try{
+			re = super.clone();
+			
+		}catch (CloneNotSupportedException e){
+			e.printStackTrace();
+		}
+		return re;
+	}
+
+	int x;
+	int y;
+	
+	public CloneEx(int x, int y) {
+		this.x =x;
+		this.y = y;
+	}
+
+	@Override
+	public String toString() {
+		return "CloneEx [x=" + x + ", y=" + y + "]";
+	}
+	
+}

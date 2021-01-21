@@ -1,0 +1,11 @@
+package g_exception;
+
+public class Exception_04 {
+
+	public static void main(String[] args) {
+		Exception ee = new Exception();
+		throw ee;
+
+	}
+
+}

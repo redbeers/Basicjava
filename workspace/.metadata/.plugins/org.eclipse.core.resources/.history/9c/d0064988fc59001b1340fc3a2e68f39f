@@ -1,0 +1,19 @@
+package h_javaLang;
+
+public class EqualsTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
+
+
+class Person{
+	long id;
+	public Person() {
+		
+	}
+	
+}

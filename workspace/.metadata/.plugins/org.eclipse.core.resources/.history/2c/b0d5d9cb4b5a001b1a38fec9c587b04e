@@ -1,0 +1,16 @@
+package store;
+
+public class Guest {
+	String name;
+	int money;
+	int miles;
+	
+	public Guest(String name, int money ) {
+		this.name = name;
+		this.money = money;
+		
+	}
+	public void point(Guest g){
+		
+	}
+}

@@ -1,0 +1,33 @@
+package f_oop2;
+
+import java.util.Vector;
+
+public class ProductTest_02 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
+class Product{
+	int quantity;
+	String qname;
+	int price;
+	Vector a = new Vector<>();
+	void aa(int quantity){
+		
+		
+	}
+	
+}
+
+class Guest{
+	String gname;
+	int gmoney;
+	int miles;
+	
+}
+class Receipt{
+	
+}

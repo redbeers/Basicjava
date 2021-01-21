@@ -1,0 +1,16 @@
+package g_exception;
+
+public class Exception_04 {
+
+	public static void main(String[] args) {
+		Exception ee = new Exception();
+		try{
+			
+		throw ee;
+		}catch(Exception e){
+			e.printStackTrace();
+		}
+		System.out.println("프로그램 종");
+	}
+
+}

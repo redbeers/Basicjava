@@ -1,0 +1,30 @@
+package g_exception;
+
+import java.sql.SQLClientInfoException;
+import java.sql.SQLException;
+
+public class Exception_05 {
+
+	public static void main(String[] args) {
+		Controller.controllerMethod();
+
+	}
+
+}
+class Controller{
+	static void controllerMethod() throws SQLException{
+		Service.serviceMethod();
+	}
+}
+class Service{
+	static void serviceMethod() throws SQLException{
+		Dao.serviceMethod();
+	}
+}
+class Dao{
+	
+	static void serviceMethod() throws SQLException{
+		
+		throw new SQLException();
+	}
+}

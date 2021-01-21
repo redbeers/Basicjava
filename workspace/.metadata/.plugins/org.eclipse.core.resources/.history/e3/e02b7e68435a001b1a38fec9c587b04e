@@ -1,0 +1,47 @@
+package f_oop2;
+
+import java.util.Vector;
+
+public class ProductTest_02 {
+
+	public static void main(String[] args) {
+		 Product2 p2 = new Product2();
+		 p2.Product(10, "냉장고1", 100);
+		 p2.Product(10, "냉장고2", 200);
+		 p2.Product(10, "냉장고3", 300);
+		
+	}
+
+}
+class Product2{
+	int quantity;
+	String qname;
+	int price;
+	
+	void Product(int quantity, String qname, int price){
+		this.quantity = quantity;
+		this.qname = qname;
+		this.price = price;
+	}
+	class Enhance{
+		Vector<Product2> v1 = new Vector<>();
+		
+		public void crown(Product2 p){
+			v1.add(p);
+		}
+		public void output(){
+			for
+		}
+	}
+}
+
+class Guest2{
+	String gname;
+	int gmoney;
+	
+//	int miles;
+	
+}
+class Receipt{
+	
+}

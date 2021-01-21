@@ -1,0 +1,16 @@
+package h_javaLang;
+
+public class StringTest_02 {
+
+	public static void main(String[] args) {
+		
+		//char charAt(int index)  문자열에서 지정된 index번째 문자 하나를 돌려준다.
+		String s = "Hello";
+		char ch = s.charAt(2);
+		System.out.println(ch);
+		
+		
+
+	}
+
+}

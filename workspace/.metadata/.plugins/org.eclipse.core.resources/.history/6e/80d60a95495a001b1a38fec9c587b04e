@@ -1,0 +1,11 @@
+package store;
+
+public class Guest {
+	String name;
+	int money;
+	int miles;
+	
+	public Guest(String name, int money, int miles) {
+		
+	}
+}

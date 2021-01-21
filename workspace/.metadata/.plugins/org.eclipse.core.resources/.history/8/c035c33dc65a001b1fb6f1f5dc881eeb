@@ -1,0 +1,11 @@
+package h_javaLang;
+
+public class GetClassTest_01 {
+
+	public static void main(String[] args) {
+		
+		
+		Class ca1 = new Point(100, 100).getClass();
+	}
+
+}
