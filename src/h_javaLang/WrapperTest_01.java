@@ -1,6 +1,6 @@
 package h_javaLang;
 
-import sun.org.mozilla.javascript.internal.ObjArray;
+
 
 import com.sun.corba.se.spi.oa.OADefault;
 
@@ -36,7 +36,7 @@ public class WrapperTest_01 {
 		
 		int i6 = i5[1];//기본형으로 푸는 과정 언박싱 이라고한다.
 		
-		Object[] obj = new ObjArray[1];
+		Object[] obj = new Object[1];
 		obj[0] = 10; //오토박싱+업케스팅
 		
 		Object o2 = (int)obj[0];//다운캐스팅 + 언박싱 +자동형변환
