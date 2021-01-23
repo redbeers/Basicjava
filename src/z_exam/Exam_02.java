@@ -3,6 +3,7 @@ package z_exam;
 public class Exam_02 {
 	public static void main(String[] args) {
 	
+		
 	/*
 	2-1. 다음 표의 빈 칸에 8개의 기본형을 알맞은 자리에 넣으시오
 	
